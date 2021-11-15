@@ -1,8 +1,9 @@
 # Project Overview
-
+`
 ## Project Name
 
 The Lyric Bar
+Web Link: https://ldavis2021.github.io/The-Lyric-Bar/
 
 ## Project Description
 
@@ -13,7 +14,9 @@ In music a bar is considered a lyric of music and in business a bar is a place t
 
 
 ## Wireframes
-Images Uploaded
+Web View: https://i.ibb.co/F3099k6/The-Lyric-Bar-1-25x.png
+Mobile View: https://i.ibb.co/5nPGXgx/The-Lyric-Bar-Mobile-1-25x.png
+
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
@@ -26,12 +29,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - Add second API
 - Allow user to search lyric data by genre
 - Allow user to research lyric data
-- Allow user to input data
+- Allow user to upload personal data
 
 ## Project Schedule
 
@@ -51,23 +53,18 @@ Nov 12| MVP | Complete
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://i.ibb.co/T4xSGRB/The-Lyric-Bar-Priority-Matrix.png
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Designing | H | 4hrs| 4hrs | 4hrs || 4hrs || 4hrs |
-| Working with API | H | 4hrs| 4hrs | 4rs || 4hrs |
-| Total | H | 8hrs| 8hrs | 8hrs || 8hrs || 8hrs |
+| Designing | H | 8hrs| 8hrs | 8hrs |
+| Working with API | H | 8hrs| 8hrs || 10hrs |
+| Total | H | 16hrs| 16hrs | 18hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 async function searchlyrics(artist, title) {
   let res = await axios.get(`https://api.lyrics.ovh/v1/${artist}/${title}`)
   console.log(res.data);
@@ -81,5 +78,5 @@ The html marquee successfully scrolls text across the page.
 
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
-Added a marquee scroll to the image background. It was added for enhancement of the background. 
+  Create Mobile View Post MVP
+  Added an html marquee scroll to the image background. It was added for enhancement of the background. 
