@@ -6,10 +6,8 @@ The Lyric Bar
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
-
-## API and Data Sample
-API 
+The Lyric Bar is a website for inspiring songwriters and music lovers to research lyrics of their choice.
+In music a bar is considered a lyric of music and in business a bar is a place to get drinks and entertainment. This combination is what inspired The Lyric Bar theme. 
  https://api.lyrics.ovh/v1/
 
 
@@ -49,7 +47,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 Nov 10| Pseudocode / actual code | complete
 |Nov 115| Initial Clickable Model  | Complete
 Nov 12| MVP | Complete
-|Nov 13| Presentations |
+|Nov 13| Presentations | 
 
 ## Priority Matrix
 
@@ -78,10 +76,10 @@ The async function successfully grabs the API info(lyrics) on demand of the user
 <marquee behavior="scroll" direction="left">
       <h1 style="color:#623911 ;font-size:60px;">WELCOME TO THE LYRIC BAR!!!</h1>
     </marquee>
-The html marquee successful scrolls text across the page. 
+The html marquee successfully scrolls text across the page. 
 }
 
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
-Moved the interaction 
+Added a marquee scroll to the image background. It was added for enhancement of the background. 

@@ -10,30 +10,25 @@
   margin: 30px;
   text-align: center;
   justify-content: space-evenly;
-  /* line-height:200px; */
   font-size: 20px;
  background-color:whitesmoke;
- /* opacity: 0.5; */
-margin-top: 200px;
-margin-bottom: auto;
+ margin-top: 200px;
+ margin-bottom: auto;
 
 }
 
 
 body  {
   
-background-image: url("https://i.ibb.co/0thSvNW/housebar-for-backgroundwlogo.png");
+ background-image: url("https://i.ibb.co/P6CLCxD/housebar-for-backgroundwlogo-2.png");
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
  background-attachment: fixed; 
-margin-top: 20px
+margin-top: 20px;
 }
 
 h1 {
   color: whitesmoke;
 }
 
-marquee behavior {
-  scroll-snap-align: ;
-}
