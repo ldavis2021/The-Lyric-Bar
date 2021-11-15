@@ -9,26 +9,12 @@ The Lyric Bar
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API and Data Sample
-Api is Apiseeds.com: 
- https://apiseeds.com/documentation/lyrics
-Json Code Snippet: var axios = require('axios');
+API 
+ https://api.lyrics.ovh/v1/
 
-var config = {
-  method: 'get',
-  url: 'https://apiseeds.com/documentation/lyrics',
-  headers: { }
-};
 
-axios(config)
-.then(function (response) {
-  console.log(JSON.stringify(response.data));
-})
-.catch(function (error) {
-  console.log(error);
-});
 
 ## Wireframes
-
 Images Uploaded
 ### MVP/PostMVP
 
@@ -37,17 +23,17 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
+- Find and use external api (api.lyrics.ovh/v1/)
 - Render data on page 
-- Allow user to research lyric data
-- Allow user to input data
+
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
 - Add second API
 - Allow user to search lyric data by genre
-- 
+- Allow user to research lyric data
+- Allow user to input data
 
 ## Project Schedule
 
@@ -57,13 +43,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Nov 5-8| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Nov 8| Project Approval | Incomplete
-|Nov 9| Core Application Structure (HTML, CSS, etc.) | Incomplete
-Nov 10| Pseudocode / actual code | Incomplete
-|Nov 115| Initial Clickable Model  | Incomplete
-Nov 12| MVP | Incomplete
-|Nov 13| Presentations | Incomplete
+|Nov 5-8| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Nov 8| Project Approval | complete
+|Nov 9| Core Application Structure (HTML, CSS, etc.) | complete
+Nov 10| Pseudocode / actual code | complete
+|Nov 115| Initial Clickable Model  | Complete
+Nov 12| MVP | Complete
+|Nov 13| Presentations |
 
 ## Priority Matrix
 
@@ -77,19 +63,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Designing | H | 4hrs| 4hrs | 4hrs || 4hrs || 4hrs |
+| Working with API | H | 4hrs| 4hrs | 4rs || 4hrs |
+| Total | H | 8hrs| 8hrs | 8hrs || 8hrs || 8hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+async function searchlyrics(artist, title) {
+  let res = await axios.get(`https://api.lyrics.ovh/v1/${artist}/${title}`)
+  console.log(res.data);
+  lyricdiv.innerHTML = res.data.lyrics
+The async function successfully grabs the API info(lyrics) on demand of the user input and displays it on the page. 
+<marquee behavior="scroll" direction="left">
+      <h1 style="color:#623911 ;font-size:60px;">WELCOME TO THE LYRIC BAR!!!</h1>
+    </marquee>
+The html marquee successful scrolls text across the page. 
 }
-```
+
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
+Moved the interaction 

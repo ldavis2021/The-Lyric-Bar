@@ -19,8 +19,3 @@ async function searchlyrics(artist, title) {
 
 }
 
-// const searchWindow;
-// function openWindow()
-// search
- // var name = document.getElementById("myName").value;
-  // alert("Name: " + name);
