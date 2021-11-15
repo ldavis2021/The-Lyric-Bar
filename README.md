@@ -60,7 +60,7 @@ https://i.ibb.co/T4xSGRB/The-Lyric-Bar-Priority-Matrix.png
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Designing | H | 8hrs| 8hrs | 8hrs |
-| Working with API | H | 8hrs| 8hrs || 10hrs |
+| Working with API | H | 8hrs| 8hrs | 10hrs |
 | Total | H | 16hrs| 16hrs | 18hrs |
 
 ## Code Snippet
